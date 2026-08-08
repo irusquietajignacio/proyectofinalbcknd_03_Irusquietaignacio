@@ -1,4 +1,4 @@
-# Adoption API: tests funcionales y Docker
+## Adoption API: tests funcionales y Docker
 
 API REST de adopciones creada desde cero para demostrar tests funcionales, aislamiento mediante fakes y ejecución reproducible en Docker.
 
@@ -28,13 +28,15 @@ La aplicación usa un repositorio en memoria para que pueda ejecutarse sin una b
 
 ## Endpoints
 
-| Método | Ruta | Resultado |
-| --- | --- | --- |
-| GET | `/health` | Estado del servicio |
-| GET | `/api/adoptions` | Lista de adopciones |
-| GET | `/api/adoptions/:aid` | Una adopción o `404` |
-| POST | `/api/adoptions/:uid/:pid` | Crea una adopción |
-| DELETE | `/api/adoptions/:uid/:pid` | Elimina una adopción |
+Método Ruta Resultado
+
+---
+
+GET `/health` Estado del servicio  
+ GET `/api/adoptions` Lista de adopciones  
+ GET `/api/adoptions/:aid` Una adopción o `404`
+POST `/api/adoptions/:uid/:pid` Crea una adopción  
+ DELETE `/api/adoptions/:uid/:pid` Elimina una adopción
 
 ## Ejecutar localmente
 
@@ -103,7 +105,7 @@ URL pública: https://hub.docker.com/r/irusquieta21/adoption-api.
 
 El documento listo para copiar a Google Docs está en [`docs/entregable-google-docs.md`](docs/entregable-google-docs.md). Incluye la estructura, explicación de tests, Dockerfile, comandos, campos para logs y URLs.
 
-URLs publicadas:
+URLs a completar:
 
 - Repositorio GitHub: https://github.com/irusquietajignacio/proyectofinalbcknd_03_Irusquietaignacio
 - Imagen DockerHub: https://hub.docker.com/r/irusquieta21/adoption-api
