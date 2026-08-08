@@ -222,9 +222,9 @@ Resultado resumido del build:
 
 Nombre local: `adoption-api:1.0.0`.
 
-Nombre público previsto: `DOCKERHUB_USUARIO/adoption-api:1.0.0`.
+Nombre público: `irusquieta21/adoption-api:1.0.0`.
 
-URL pública: `https://hub.docker.com/r/DOCKERHUB_USUARIO/adoption-api`.
+URL pública: https://hub.docker.com/r/irusquieta21/adoption-api.
 
 La ejecución del contenedor produjo:
 
@@ -265,9 +265,9 @@ Para publicar:
 
 ```powershell
 docker login
-docker tag adoption-api:1.0.0 DOCKERHUB_USUARIO/adoption-api:1.0.0
-docker push DOCKERHUB_USUARIO/adoption-api:1.0.0
-docker scout quickview DOCKERHUB_USUARIO/adoption-api:1.0.0
+docker tag adoption-api:1.0.0 irusquieta21/adoption-api:1.0.0
+docker push irusquieta21/adoption-api:1.0.0
+docker scout quickview irusquieta21/adoption-api:1.0.0
 ```
 
 ## 6. README

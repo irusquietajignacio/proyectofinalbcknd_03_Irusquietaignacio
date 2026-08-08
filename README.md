@@ -88,16 +88,16 @@ El Dockerfile usa `node:22-alpine`, instala únicamente dependencias de producci
 
 ## DockerHub
 
-Reemplazar `DOCKERHUB_USUARIO` por el usuario real:
+Usuario DockerHub: `irusquieta21`.
 
 ```powershell
 docker login
-docker tag adoption-api:1.0.0 DOCKERHUB_USUARIO/adoption-api:1.0.0
-docker push DOCKERHUB_USUARIO/adoption-api:1.0.0
-docker scout quickview DOCKERHUB_USUARIO/adoption-api:1.0.0
+docker tag adoption-api:1.0.0 irusquieta21/adoption-api:1.0.0
+docker push irusquieta21/adoption-api:1.0.0
+docker scout quickview irusquieta21/adoption-api:1.0.0
 ```
 
-URL a completar después de publicar: `https://hub.docker.com/r/DOCKERHUB_USUARIO/adoption-api`.
+URL pública: https://hub.docker.com/r/irusquieta21/adoption-api.
 
 ## Entrega
 
@@ -105,5 +105,5 @@ El documento listo para copiar a Google Docs está en [`docs/entregable-google-d
 
 URLs a completar:
 
-- Repositorio GitHub: `PENDIENTE`
-- Imagen DockerHub: `PENDIENTE`
+- Repositorio GitHub: https://github.com/irusquietajignacio/proyectofinalbcknd_03_Irusquietaignacio
+- Imagen DockerHub: https://hub.docker.com/r/irusquieta21/adoption-api
