@@ -105,7 +105,7 @@ URL pública: https://hub.docker.com/r/irusquieta21/adoption-api.
 
 El documento listo para copiar a Google Docs está en [`docs/entregable-google-docs.md`](docs/entregable-google-docs.md). Incluye la estructura, explicación de tests, Dockerfile, comandos, campos para logs y URLs.
 
-URLs a completar:
+URLs publicadas:
 
 - Repositorio GitHub: https://github.com/irusquietajignacio/proyectofinalbcknd_03_Irusquietaignacio
 - Imagen DockerHub: https://hub.docker.com/r/irusquieta21/adoption-api
